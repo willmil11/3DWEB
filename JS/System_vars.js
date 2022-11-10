@@ -4,5 +4,6 @@
 
 let BA576D5A7134743777217A25432A462D = {
     innerHeight: (window.innerHeight + "px"),
-    innerWidth: (window.innerWidth + "px")
-}
+    innerWidth: (window.innerWidth + "px"),
+    elem: undefined
+};
