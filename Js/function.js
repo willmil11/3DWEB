@@ -49,36 +49,21 @@ function AB6250655368566D597133743677397A(){
 }
 
 //User function
-function NewCanvas(variable){
-    try{
-        //Set the variable to the default canvas profile
-        eval((variable + " = BA576D5A7134743777217A25432A462D"));
-        //Set the canvas element to it's id
-        eval((variable = ".elem = " + AB6250655368566D597133743677397A()));
-        //Return true if operation suceed else return false
-        return true;
-    }
-    catch (error){
-        console.error("[3DWEB] An error has occured while creating the new canvas as the variable ('" + variable + "')");
-        //Return false if operation hasn't suceed else return true
-        return false;
+function ImportRenderer(width, height){
+    if (A78DE2D2D853B4B9A6D2D534EA428BD0 === false){
+        A78DE2D2D853B4B9A6D2D534EA428BD0 = true;
+        document.body.innerHTML += ("<canvas id='A0C06182E8033F89ECFE5DE6A308B07A' width='" + width + "' height='" + height + "'>");
+    }   
+    else{
+        throw "[3DWEB] Renderer already exists...";
     }
 }
 
-function CreateObj(variable, Shape, Rgb_color){
-    try{
-        //Set the variable to the default Object default profile
-        eval((variable + " = A884EF8CDE36B16A58EC2A44E670995F;"));
-        //Set the shape of the obj
-        eval((variable + ".shape = " + Shape + ";"));
-        //Set the Color of the obj
-        eval((variable + ".color = " + Rgb_color + ";"));
-        //Return true if operation suceed else return false
-        return true;
-    }
-    catch (error){
-        console.error("[3DWEB] An error has occured while creating the new object as the variable ('" + variable + "')");
-        //Return false if operation hasn't suceed else return true
-        return false;
-    }
+function RendererSetSize(width, height){
+    document.getElementById("A0C06182E8033F89ECFE5DE6A308B07A").width = width;
+    document.getElementById("A0C06182E8033F89ECFE5DE6A308B07A").height = height;
+}
+
+function Render(){
+    
 }
